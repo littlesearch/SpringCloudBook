@@ -1,7 +1,9 @@
 ## 补充
-- by tanliwei  
-第三章 eureka-server 、 hello-service
+勘误表:http://www.broadview.com.cn/book/50
 
+第三章项目 eureka-server、hello-service  
+
+--by tanliwei  
 
 # SpringCloudBook
 
