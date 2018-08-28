@@ -54,8 +54,8 @@
         <module>zipkin-server-stream</module>
         <module>zipkin-server-stream-mysql</module>
 
-        <module>consul-client-1</module>
-        <module>api-gateway-consul</module>
+        <!--<module>consul-client-1</module>-->
+        <!--<module>api-gateway-consul</module>-->
     </modules>
 
 </project>

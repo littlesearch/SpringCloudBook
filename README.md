@@ -1,7 +1,10 @@
 ## 补充
 勘误表:http://www.broadview.com.cn/book/50
 
-第三章项目 eureka-server、hello-service  
+第三章项目 
+外层父项目 mvn clean install -DskipTests
+eureka-server、eureka-server-ha(高可用注册中心)、hello-service、  
+
 
 --by tanliwei  
 
@@ -17,7 +20,7 @@
 - Spring Cloud系列博文：http://blog.didispace.com/categories/Spring-Cloud/
 - Spring Boot系列博文：http://bbs.springcloud.com.cn/categories/Spring-Boot/
 
-## 我的公众号
+## 作者公众号
 
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0105/082219_0315cece_437188.jpeg "在这里输入图片标题")
 
