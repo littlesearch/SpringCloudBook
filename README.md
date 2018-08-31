@@ -3,7 +3,9 @@
 
 第三章项目 
 外层父项目 mvn clean install -DskipTests
-eureka-server、eureka-server-ha(高可用注册中心)、hello-service、  
+eureka-server、  
+eureka-server-ha(高可用注册中心)、配置host  
+hello-service、  
 
 
 --by tanliwei  

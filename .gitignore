@@ -10,3 +10,4 @@ logs/
 *.jar
 */target/
 *.log
+/jar
