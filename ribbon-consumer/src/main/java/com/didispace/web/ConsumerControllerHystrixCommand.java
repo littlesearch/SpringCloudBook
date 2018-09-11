@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ConsumerController {
+public class ConsumerControllerHystrixCommand {
 
     @Autowired
     HelloService helloService;
 
-    @RequestMapping(value = "/ribbon-consumer2", method = RequestMethod.GET)
+    @RequestMapping(value = "/ribbon-hystrix", method = RequestMethod.GET)
     public String helloConsumer() {
-        return helloService.hello();
+        return helloService.helloHytrix();
     }
 
 }

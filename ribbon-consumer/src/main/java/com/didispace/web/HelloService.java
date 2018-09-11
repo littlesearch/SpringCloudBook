@@ -21,7 +21,8 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-    @HystrixCommand(fallbackMethod = "helloFallback", commandKey = "helloKey")
+
+    @HystrixCommand(fallbackMethod = "helloFallback", commandKey = "hello")
     public String hello() {
         long start = System.currentTimeMillis();
 
@@ -69,4 +70,9 @@ public class HelloService {
         return "error";
     }
 
+
+    @HystrixCommand(fallbackMethod = "helloFallback")
+    public String helloHytrix() {
+        return restTemplate.getForEntity("http://HELLO-SERVICE/hello", String.class).getBody();
+    }
 }
