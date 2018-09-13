@@ -7,6 +7,10 @@ eureka-server、
 eureka-server-ha(高可用注册中心)、配置host  
 hello-service、  
 
+第五章
+添加项目 hystrix-sample  
+
+eureka服务治理 失效服务没下线
 
 --by tanliwei  
 
